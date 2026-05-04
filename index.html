@@ -1,31 +1,35 @@
 <!doctype html>
 <html lang="es">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="CSS/menu.css" />
-    <link rel="stylesheet" href="CSS/pantalla.css" />
-    <title>Guia de lenguajes</title>
-  </head>
-  <body>
-    <section class="srct-menu">
-      <input type="button" />
-      <div class="container-menu">
-        <div class="menu">
-          <nav>
-            <a href="#">HTML</a>
-            <a href="#">CCS</a>
-            <a href="#">JavaScript</a>
-            <a href="#">SQL</a>
-            <a href="#">Java</a>
-          </nav>
-        </div>
-      </div>
-    </section>
-    <section class="sect-contenido">
-      <header></header>
-      <section></section>
-      <footer></footer>
-    </section>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="CSS/menu.css" />
+		<link rel="stylesheet" href="CSS/pantalla.css" />
+		<title>Guia de lenguajes</title>
+	</head>
+	<body>	
+		<div>
+		<input type="radio" id="botonA" name="MenuLateral" checked>
+		<input type="radio" id="botonC" name="MenuLateral">
+		<div id="contenedor-menu-latera" >
+			<div id="contenedor-botones">
+				<label for="botonC" >  
+					<img src="IMG/menuLateralCerrado.png" alt="Boton de hamburguesa" class="cerrado">
+				</label>
+				<label for="botonA" >
+					<img src="IMG/menuLateralAbierto.png" alt="Boton de hamburguesa" class="abierto">
+				<label>
+			</div>
+			<nav id="menuLateral" class="menu_lateral">
+				<a href="#"><img src="IMG/html.png" alt="HTML"><p>HTML</p></a>
+				<a href="#"><img src="IMG/css.png" alt="CSS"> <p>CSS</p></a>
+				<a href="#"><img src="IMG/js.png" alt="JS"> <p>JS</p></a>
+			</nav>
+		</div>
+		</div>
+		<header></header>
+		<main></main>
+		<footer></footer>
+		</section>
+	</body>
 </html>

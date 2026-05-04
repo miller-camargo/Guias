@@ -1,14 +1,52 @@
-/*Menù lateral*/
-nav a {
-  display: block;
+/*Menù lateral diseño*/
+#contenedor-menu-latera {
+  background-color: rgb(122, 122, 122);
+  height: 100vh;
+}
+#botonA,
+#botonC {
+  display: none;
+}
+#contenedor-menu-latera img {
+  width: 32px;
+  margin: 10px;
+}
+#contenedor-botones {
+  display: flex;
+  justify-content: space-between;
+}
+#menuLateral {
+  display: flex;
+  flex-direction: column;
+}
+#menuLateral a {
+  padding: 5px 0px;
   text-decoration: none;
-  padding: 20px;
-  color: #ffffff;
-  border-left: 5px solid transparent;
-  transition: all 400ms ease;
+  display: flex;
 }
-nav a:hover {
-  border-left: 5px solid #ffffff;
-  background: #0a0a44;
+#menuLateral a:hover {
+  background-color: wheat;
+  border-left: 10px black solid;
 }
-/*Fin de Menù lateral*/
+#menuLateral a p {
+  color: white;
+  font-size: 16px;
+  margin-left: 10px;
+  align-content: center;
+}
+#botonC:checked ~ #contenedor-menu-latera .cerrado {
+  display: none;
+}
+#botonA:checked ~ #contenedor-menu-latera .abierto {
+  display: none;
+}
+#botonC:checked ~ #contenedor-menu-latera {
+  width: 200px;
+}
+#botonA:checked ~ #contenedor-menu-latera {
+  width: 60px;
+}
+
+/*responsive pantalla grande*/
+/*responsive pantalla pequeña*/
+/*responsive movil*/

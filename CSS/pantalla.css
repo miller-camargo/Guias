@@ -1,18 +1,4 @@
-body {
-  display: flex;
-  flex-direction: row;
+* {
   margin: 0;
   padding: 0;
-  height: 100vh;
-}
-.srct-menu {
-  width: 300px;
-  background: #3737c3;
-  height: 100vh;
-}
-.sect-contenido {
-  width: 100%;
-  background: #ffffff;
-  flex: 1;
-  height: 100vh;
 }
