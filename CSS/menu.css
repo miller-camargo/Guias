@@ -3,6 +3,7 @@
   background-color: rgb(122, 122, 122);
   height: 100vh;
 }
+/*responsive pantalla grande*/
 #botonA,
 #botonC {
   display: none;
@@ -46,7 +47,11 @@
 #botonA:checked ~ #contenedor-menu-latera {
   width: 60px;
 }
-
-/*responsive pantalla grande*/
+#botonC:checked ~ #contenedor-menu-latera p {
+  display: block;
+}
+#botonA:checked ~ #contenedor-menu-latera p {
+  display: none;
+}
 /*responsive pantalla pequeña*/
 /*responsive movil*/
